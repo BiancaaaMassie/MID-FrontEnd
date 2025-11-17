@@ -1,0 +1,103 @@
+{
+  "home": {
+    "name": "Injil Zhena Florencya Sakul",
+    "title": "Front-End Web Development",
+    "bio": "A Frontend Web Developer crafting modern, responsive, and elegant web experiences with HTML, CSS, JavaScript, React, Vite, and Tailwind CSS focused on clean design and exceptional user experience.",
+    "email": "S22310335@student.unklab.ac.id",
+    "phone": "+62 858 2359 5951",
+    "social": {
+      "github": "https://github.com/Injills223",
+      "linkedin": "https://www.linkedin.com/",
+      "instagram": "https://instagram.com/injilzhenass"
+    }
+  },
+  "about": {
+    "paragraph1": "Hello! I'm Injil Sakul, a Frontend Web Developer based in Indonesia. I have a passion for creating digital solutions that are not only functional but also deliver modern, responsive, and exceptional user experiences.",
+    "paragraph2": "I’m always enthusiastic about learning new technologies and collaborating with teams to solve challenging problems. Outside of coding, I enjoy photography and reading.",
+    "image": "src/assets/profile.jpg"
+  },
+  "skills": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Figma"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "UI/UX Design",
+      "description": "Creating beautiful and functional user interfaces with exceptional user experiences.",
+      "icon": "🎨"
+    },
+    {
+      "id": 2,
+      "title": "Web Development",
+      "description": "Building modern and responsive web applications using the latest technologies.",
+      "icon": "💻"
+    },
+    {
+      "id": 3,
+      "title": "Brand Identity",
+      "description": "Crafting brand identities that connect deeply with your audience, create lasting impressions, and help your brand stand out in the market.",
+      "icon": "🌸"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Modern Web Platform",
+      "description": "A sleek and modern web platform with intuitive navigation and beautiful UI.",
+      "image": "src/assets/portofolio1.jpg"
+    
+    },
+    {
+      "id": 2,
+      "title": "E-commerce Solution",
+      "description": "Complete e-commerce platform with seamless shopping experience.",
+      "image": "src/assets/portofolio2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Brand Identity System",
+      "description": "Comprehensive brand identity design with logo, colors, and style guide.",
+      "image": "src/assets/portfolio3.jpg" 
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Creating Beautiful Design Systems",
+      "excerpt": "Learn how to build scalable and maintainable design systems that empower your team and improve consistency.",
+      "date": "17 Nov 2025",
+      "image": "src/assets/blog1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Art of Minimalist Design",
+      "excerpt": "Discover the principles of minimalist design and how to apply them to create stunning, focused interfaces.",
+      "date": "5 Nov 2025",
+      "image": "src/assets/blog2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Boosting Productivity as a Designer",
+      "excerpt": "Practical tips and tools to enhance your creative workflow and deliver exceptional work efficiently.",
+      "date": "28 Oct 2025",
+      "image": "src/assets/blog3.jpg"
+    }
+  ]
+}
