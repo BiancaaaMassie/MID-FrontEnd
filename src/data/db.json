@@ -1,0 +1,36 @@
+{
+"profile": {
+"id": 1,
+"name": "Bianca Carolyne Massie",
+"title": "Mahasiswa Sistem Informasi | Frontend Enthusiast",
+"tagline": "Membangun antarmuka yang indah dan fungsional.",
+"campus": "Universitas Klabat, Airmadidi",
+"faculty": "Ilmu Komputer",
+"major": "Sistem Informasi",
+"semester": "5 (Tingkat 3)",
+"email": "bianca.massie@example.com",
+"imagePlaceholder": "https://placehold.co/288x384/F8B195/355C7D?text=Bianca"
+},
+"hard_skills": [
+{ "id": 1, "name": "React Native", "level": "Intermediate", "description": "Pengalaman dengan onboarding screen, sign in, debugging, dan menjalankan aplikasi di Android." },
+{ "id": 2, "name": "React JS", "level": "Intermediate", "description": "Mahir dalam membuat komponen fungsional, manajemen state, merge branch, dan perbaikan error." },
+{ "id": 3, "name": "Git & GitHub", "level": "Intermediate", "description": "Menguasai branching, merge, push/pull, dan pathspec fix untuk kolaborasi tim." }
+],
+"soft_skills": [
+{ "id": 1, "skill": "Cepat Belajar", "icon": "⚡" },
+{ "id": 2, "skill": "Detail-Oriented", "icon": "🔍" },
+{ "id": 3, "skill": "Komunikatif", "icon": "💬" },
+{ "id": 4, "skill": "Teamwork", "icon": "🤝" },
+{ "id": 5, "skill": "Problem Solving", "icon": "💡" }
+],
+"projects": [
+{ "id": 1, "name": "Aplikasi E-Learning Kampus", "description": "Pengembangan modul onboarding dan halaman dashboard menggunakan React Native.", "technologies": ["React Native", "Expo", "Figma"] },
+{ "id": 2, "name": "Website Portofolio V1 (ReactJS)", "description": "Proyek personal untuk melatih kemampuan komponen dan styling dengan Tailwind CSS.", "technologies": ["ReactJS", "Tailwind CSS", "Git"] },
+{ "id": 3, "name": "Analisis Data Penjualan", "description": "Proyek mini untuk klasifikasi data menggunakan Decision Tree (Python).", "technologies": ["Python", "Pandas"] }
+],
+"interests": [
+{ "id": 1, "name": "Musik", "color": "bg-pastel2" },
+{ "id": 2, "name": "Jogging", "color": "bg-pastel3" },
+{ "id": 3, "name": "Warna Biru", "color": "bg-pastel5" }
+]
+}

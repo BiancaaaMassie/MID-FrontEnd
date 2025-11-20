@@ -1,23 +1,15 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-      },
-      colors: {
-        primary: '#fbbf24', // amber
-        secondary: '#8b5cf6', // violet
-        accent: '#10b981', // emerald
-        background: '#fdf2f8', // rose-50
-        card: '#ffffff',
-        text: '#1f2937',
-      },
-    },
-  },
-  plugins: [],
+module.exports = {
+content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+theme: {
+extend: {
+colors: {
+pastel1: '#F8B195',
+pastel2: '#F67280',
+pastel3: '#C06C84',
+pastel4: '#6C5B7B',
+pastel5: '#355C7D'
+}
+}
+},
+plugins: []
 }
