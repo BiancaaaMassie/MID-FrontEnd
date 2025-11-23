@@ -1,16 +1,62 @@
-# React + Vite
+# Bianca Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React portfolio project built with Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Install dependencies
 
-## React Compiler
+```bash
+npm install
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Running the Mock API Server
 
-## Expanding the ESLint configuration
+This project uses `json-server` to serve mock data from `src/data/db.json` at `http://localhost:3000`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To start the mock API server, run:
+
+```bash
+npm run json-server
+```
+
+This will start the API server watching `src/data/db.json` on port 3000.
+
+### Running the Frontend Development Server
+
+In another terminal, start the React development server:
+
+```bash
+npm run dev
+```
+
+This will start the Vite dev server, usually at `http://localhost:5173`.
+
+### Accessing the App
+
+Open your browser and navigate to the address shown by Vite (default `http://localhost:5173`).
+
+The frontend will fetch data from the mock API server at `http://localhost:3000`.
+
+---
+
+## Build for Production
+
+To build the app for production deployment:
+
+```bash
+npm run build
+```
+
+You can preview the production build locally with:
+
+```bash
+npm run preview
+```
+
+---
+
+## Notes
+
+- Make sure `json-server` is running before starting the frontend to avoid data fetching errors.
+- The mock data is located in `src/data/db.json` and serves as the main data source for the portfolio.
